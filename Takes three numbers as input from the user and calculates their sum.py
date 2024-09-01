@@ -1,1 +1,8 @@
-print("hello world")
+#1.Takes three numbers as input from the user and calculates their sum
+
+a = int(input("Enter 1st number: "))
+b = int(input("Enter 2nd number: "))
+c = int(input("Enter 3rd number: "))
+
+total = a+b+c
+print("Total value is: ", total)
